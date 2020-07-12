@@ -149,7 +149,7 @@ function renderScore(canvas) {
     canvas.fillText("Счёт: " + score, 16, 32);
 }
 
-game.addEventListener("touchstart", (event) => {
+game.addEventListener("touchmove", (event) => {
     let rect = game.getBoundingClientRect();
     let x = event.clientX - rect.left;
     paddle.move(x - paddle.width / 2, width);
