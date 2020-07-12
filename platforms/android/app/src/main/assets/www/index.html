@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Арканоид</title>
+</head>
+
+<body>
+    <div id="about-container" class="about-container">
+        <h2 class="h2">Об авторе</h2>
+        <p>Автор: Артем Сергеевич</p>
+        <p>© 2k20, Химки</p>
+        <button id="close-about" class="btn">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span class="s1">Закрыть</span>
+        </button>
+    </div>
+
+    <div id="menu" class="menu">
+        <button id="startGame" class="btn">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span>Начать игру</span>
+        </button>
+        <button id="about" class="btn">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span>Об авторе</span>
+        </button>
+    </div>
+
+    <div id="gameover" class="gameover">
+        <h2 class="title">Игра окончена</h2>
+        <h3 id="score" class="score">Количество очков: </h3>
+        <button id="retry" class="btn">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span>Начать заново</span>
+        </button>
+    </div>
+
+    <div id="winner" class="winner">
+        <h2>Вы победили!</h2>
+    </div>
+
+    <canvas id="game" >
+    </canvas>
+    <script src="levels.js"></script>
+    <script src="brick.js"></script>
+    <script src="ball.js"></script>
+    <script src="paddle.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

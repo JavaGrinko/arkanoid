@@ -1,0 +1,122 @@
+#game {
+  background-image: url(images/background.jpg);
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner {
+  background-image: url(images/winner.gif);
+  z-index: 1000;
+  position: absolute;
+  width: 400px;
+  height: 267px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner h2 {
+  color: white;
+  font-family: "Comic Sans MS";
+  font-size: 40px;
+}
+
+.about-container {
+  background-color: rgb(230, 64, 64);
+  z-index: 1000;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  background-color: rgb(73, 207, 91);
+  z-index: 999;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#startGame {
+  margin-bottom: 16px;
+}
+
+.gameover {
+    background-color: rgb(182, 158, 237);
+    z-index: 999;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: crimson;
+    font-size: 52px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.score {
+    color: darkblue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+    position: relative;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }

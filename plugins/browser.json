@@ -1,0 +1,43 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "ru.javagrinko.arkanoid"
+    }
+  }
+}

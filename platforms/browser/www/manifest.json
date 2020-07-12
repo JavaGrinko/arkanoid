@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Arkanoid",
+  "short_name": "Arkanoid",
+  "version": "ru.javagrinko.arkanoid",
+  "description": "Hello World sample application that responds to the deviceready event.",
+  "author": "PhoneGap Team",
+  "icons": [],
+  "orientation": "landscape",
+  "start_url": "index.html"
+}
